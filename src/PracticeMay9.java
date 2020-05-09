@@ -14,5 +14,17 @@ public class PracticeMay9 {
             System.out.println("Got some remainder");
         }
 
+        // Code block and if/else Challenge
+
+        boolean gameOver = true;
+        int score = 10000;
+        int levelCompleted = 8;
+        int bonus = 200;
+
+        if (gameOver) {
+            int finalScore = score + (levelCompleted * bonus);
+            System.out.println("Your final score: " + finalScore);
+        }
+
     }
 }
