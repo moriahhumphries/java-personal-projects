@@ -13,13 +13,13 @@ public class PracticePerson {
         this.name = name;
     }
 
-    public void SayHello(){
+    public void sayHello(){
         System.out.println("Hello, "+ this.getName());
     }
 
     public static void main(String[] args) {
         PracticePerson person = new PracticePerson("Moriah");
-        person.SayHello();
+        person.sayHello();
 
 
 //    PracticePerson person1 = new PracticePerson("John");
